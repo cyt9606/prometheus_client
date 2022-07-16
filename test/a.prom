@@ -1,0 +1,8 @@
+# HELP example_metric Metric
+# TYPE example_metric gauge
+example_metric 13
+# HELP node_directory_size_bytes Disk space used by some directories
+# TYPE node_directory_size_bytes gauge
+# HELP node Disk space used by some directories
+# TYPE node gauge
+node 100201
