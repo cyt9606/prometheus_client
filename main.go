@@ -60,5 +60,10 @@ func PushToGateway(pushad string,coldir string,job string,coltime int) {
 
 }
 func main(){
-	PushToGateway()
+	pushad:="192.168.1.1:9091"
+	coldir:="./test"
+	job:="test"
+	coltime:=3
+	PushToGateway(pushad,coldir,job,coltime)
+	
 }
